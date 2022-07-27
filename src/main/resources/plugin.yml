@@ -1,0 +1,12 @@
+name: ShutdownTimer
+version: '${project.version}'
+main: ml.olly.shutdowntimer.ShutdownTimer
+api-version: 1.19
+authors: [ Olly ]
+description: A server shutdown timer for Survival 6
+website: https://olly.ml
+commands:
+  shutdown:
+    description: Broadcasts a shutdown message and creates a bossbar to alert players
+    usage: /shutdown [time + h, m, or s/cancel]
+    permission: s6.stimer.command
